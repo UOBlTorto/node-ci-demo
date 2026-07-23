@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "build": "tar -czf app.tar.gz index.js package.json package-lock.json"
   },
   "keywords": [],
   "author": "",
